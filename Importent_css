@@ -1,1 +1,60 @@
+/*********************************** for box inline same width ****************************************************/
+
+HTML______
+<ul>
+    <li>
+      <img src="https://frvego.com/assets/public/images/gluten-free.png" alt="" class="img-fluid">
+      <p>Gluten-free</p>
+    </li>  
+   <li>
+      <img src="https://frvego.com/assets/public/images/gluten-free.png" alt="" class="img-fluid">
+      <p>Gluten-free</p>
+    </li>
+    <li>
+      <img src="https://frvego.com/assets/public/images/gluten-free.png" alt="" class="img-fluid">
+      <p>Gluten-free</p>
+    </li>
+</ul>
+
+
+CSS_______
+ul {
+    color: #4F0341;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;}
+
+/*********************************** for box inline same width *****************************************************/
+
+
+
+
+
+/*********************************** Right side fix and left side scroll sticky ************************************/
+
+CSS______
+.order-summry {
+    position: sticky;
+    align-self: flex-start;
+    top: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
